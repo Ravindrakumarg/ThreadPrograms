@@ -22,7 +22,7 @@ public:
 	HANDLE	GetThreadHandle();
 
 private:
-static	DWORD	WINAPI ThreadFunc(LPVOID);
+	DWORD	WINAPI ThreadFunc(LPVOID);
 	DWORD	Run();
 	void	CleanUp();
 	DWORD	SetActive();
